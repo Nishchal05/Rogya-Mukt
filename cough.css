@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+.list{
+   list-style: none;
+   margin-right: 60px;
+   font-size: 20px;
+   border: 1px solid white; 
+   background-color: yellow;
+   border-radius: 34px;
+   width: 90px;
+   padding: 12px;
+   transition-property: all;
+   transition-duration: 0.5ms;
+   transition-timing-function: ease-in-out;
+}
+.list:hover{
+    border: 4px solid green;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list{
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #7D7B7D;
+}
+.container{
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.list1{
+    font-size: 25px;
+    list-style-type: none;
+    margin-top: 25px;
+}
+#Symptoms{
+    font-size: 40px;
+}
+.cough{
+    font-size: 2.5rem;
+    margin-top: 25px;
+}
+.covid{
+    font-size: 2.5rem;
+    list-style-type: none;
+}
+.covid1{
+    font-size: 1.8rem;
+    list-style-type: none;
+    margin-top: 25px;
+}

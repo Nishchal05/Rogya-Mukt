@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav><ul><li><h1>medical helper</h1></li></ul></nav>
+    <div class="container">
+        <div><label>Enter your location:-</label><input type="text" id="collect">
+            <button id="magnification"><i class="fa-solid fa-magnifying-glass" onclick="helper()"></i></button>
+        </div>
+        <div id="result"></div>
+        <a></a>
+    </div>
+    <script>
+        const helper=()=>{
+            const colle=document.getElementById('collect').value;
+            if(colle==='nitj,jalandhar'){
+                let re=document.getElementById('result').innerHTML="Dr. Smita Vasudev ( Muskaan Counselling & Psychotherapy Centre)-->Lajwanti Hospital, Cool Road,Jalandhar, Punjab"
+            }
+            else{
+                alert('sorry this is underprocess');
+            }
+        }
+    </script>
+</body>
+</html>

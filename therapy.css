@@ -1,0 +1,239 @@
+*{
+   margin: 0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+nav img{
+    margin-top: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;   
+}
+.logo{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-right: 100px;
+    justify-content: left;
+}
+.container{
+    background-color:white;
+    color: black;
+    display:flex;
+    height: 100%;
+    padding: 25px;
+}
+.header{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 80%;
+}
+.search{
+    margin-top: 150px;
+     margin-left: 560px; 
+    font-size: 20px;
+}
+.heading{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.dis{
+    border: 1px solid #B7B4B6;
+    width: 100px;
+    border-radius: 34px;
+    background-color: aqua;
+    margin-top: 13px;
+    margin-right: 40px;
+    color: white;
+    padding: 13px;
+    box-shadow:  4px 4px #7D7B7D, -1em 0 .4em #7D7B7D;
+}
+.dis:hover{
+    border: 4px solid #7D7B7D;
+}
+.dis a{
+    text-decoration: none;
+    color: black;
+}
+.common{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.cure{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 40px;
+}
+label{
+    font-size: 20px;
+    font-weight: 10px;
+}
+.heading{
+    margin-top: 60px;
+    margin-left: 400px;
+}
+.common1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    height: 400px;
+    width: 260px;
+   background-color: aqua;
+   border-radius: 10%;
+  margin-left: 150px;
+  margin-top: 100px;
+   border: 1px solid black;
+   box-shadow:  7px 7px #7D7B7D, -1em 0 .4em #7D7B7D;
+}
+.yoga img{
+    border-radius: 10%;
+}
+.Detail{
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-right: 90px;
+}
+.Detail button{
+    font-size: 1.25rem;
+    border: 1px solid black;
+    border-radius: 27px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+.Detail1{
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 90px;
+}
+.Detail1 button{
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 27px;
+    cursor: pointer;
+}
+.Detail:hover{
+    opacity: 0.5;
+}
+.Detail1:hover{
+    opacity: 0.5;
+}
+.bigconta{
+    display: flex;
+}
+.navi{
+    margin-top: 30px;
+}
+.navi ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+.navi ul li{
+    list-style: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 27px;
+}
+.navi ul li #navi2{
+    background-color: aqua;
+    border-radius: 27px;
+    padding: 10px;
+}
+.navi ul li:hover{
+    opacity: 0.5;
+}
+
+.navi ul{
+    display: flex;
+    gap: 1.5rem;
+}  
+.img2 pre{
+    height: 100px;
+    width: 45%;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10%;
+    margin-bottom: 100px;
+}
+.img2 img{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.foot{
+    height: 70px;
+    width: 100%;
+    background-color: #979496;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-style: none;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+
+}
+.foot a{
+    text-decoration: none;
+}
+.navfoot{
+    color: azure;
+    font-size: 2rem;
+   text-decoration-style: none;
+}
+body hr{
+    margin : 30px 44px;
+    color: purple;
+}
+.room{
+    display: flex;
+}
+.room img{
+    margin-left: 140px;
+}
+.change{
+    font-size: 2rem;
+}
+.cure{
+    font-size: 1.8rem;
+}
+.label label{
+    font-size: 1.8rem;
+}
+#collect{
+    font-size: 1.5rem;
+    border-radius: 27px;
+}
+#magnification{
+    font-size: 1.5rem;
+}
+#detail2{
+    margin-top: 100px;
+}
+#collect{
+    padding: 5px;
+}
